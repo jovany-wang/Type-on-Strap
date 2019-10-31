@@ -7,7 +7,7 @@ date:   2019-10-26
 <p class="intro"><span class="dropcap">大</span>概是今年年初的时候，我们的项目要用到redis，不过要求redis有2个功能:高可用和table的概念。</p>
 
 
-其中高可用是一个非常强的需求，而对table的需求没那么强，但是没有table类型会使得我们在使用redis的时候要模拟出这样一个概念，也是很头痛的事情。所以，我就有了做一个**高可用的，支持table类型的kv内存数据库**的想法。给它取了个名字叫[Dst](https://github.com/dst-project/dst) - 取Distributed Store with Table中3个单词的首字母。
+其中高可用是一个非常强的需求，而对table的需求没那么强，但是没有table类型会使得我们在使用redis的时候要模拟出这样一个概念，也是很头痛的事情。所以，我就有了做一个**高可用的，支持table类型的kv内存数据库**的想法。给它取了个名字叫[Dst](https://github.com/dst-project/dst),取Distributed Store with Table中3个单词的首字母。
 
 对于Dst的目标，我的设定是以下3点：
 1. 类redis接口，让用户能直接上手。
@@ -82,6 +82,3 @@ table driver_table {
 
 所以，Dst在我的设计里，它应该是一个内存数据库，尽管可能会去持久化日志;其次它还应当是一个分布式的高可用存储，以便我们轻松地为中小企业提供便捷可靠的内存数据库方案；此外它支持了table的类型让我们某些特定情况下，可以不动用那么heavy的关系型数据库来做一些关系存储的事情。你认为呢？
 
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
