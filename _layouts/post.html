@@ -42,7 +42,20 @@ layout: default
   {% include post_nav.html %}
 {% endif %}
 <div id="gitalk-container"></div>
-
+{% if site.comments.gitalk %}
+<script>
+   var gitalk = new Gitalk({
+	  clientID: '9df613f332ef380515ca',
+	  clientSecret: '594f95c98da1f6258aa199224486d052c7ac7b88',
+	  repo: 'https://jovany.wang/',
+	  owner: 'jovany-wang',
+	  admin: '{{ site.comments.gitalk_admin }}',
+	  id: location.pathname,      // Ensure uniqueness and length less than 50
+	  distractionFreeMode: '{{ site.comments.distractionFreeMode }}' // Facebook-like distraction free mode
+	})
+	gitalk.render('gitalk-container')
+</script>
+{% endif %}
 <!-- To change color of links in the page -->
 <style>
   {% if page.color %}
