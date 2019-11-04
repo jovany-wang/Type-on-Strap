@@ -52,11 +52,3 @@ exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "
 # theme: type-on-strap                                  # if using the theme as a jekyll theme gem
 remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
 
-comments: 
-  gitalk: true
-  gitalk_clientID: '9df613f332ef380515ca'
-  gitalk_Secret: '594f95c98da1f6258aa199224486d052c7ac7b88'
-  gitalk_repo: 'https://jovany.wang/'
-  gitalk_owner: 'jovany-wang'
-  gitalk_admin: 'jovany-wang'
-  distractionFreeMode: true
