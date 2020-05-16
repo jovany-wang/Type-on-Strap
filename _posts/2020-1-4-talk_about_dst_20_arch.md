@@ -31,7 +31,7 @@ date:   2020-1-4
 - (6) proxy server将response发回给该client。
 
 ### 单机线程模型
-这里我们讨论的单机线程模型其实是指一个StoreServer
+这里我们讨论的单机线程模型其实是指一个StoreServer。
 ### 存储引擎
 
 ### 其他能力的升级
