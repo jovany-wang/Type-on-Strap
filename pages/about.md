@@ -8,10 +8,14 @@ tags: [About, Archive]
 
 
 ### About Jovany Wang
-> 我的工作是做[Ray](https://github.com/ray-project/ray),一个生态统一的分布式计算引擎。我还喜欢研究一些其他分布式的东西，最近下班空闲在研究一个kvs，叫[Distkv](https://github.com/dst-project/distkv)。我的兴趣不止是写代码，还有音乐。另外，我的联系方式是kingchin1218@gmail.com,如果有任何问题，欢迎联系。
+> I‘m now working on a Distributed SQL Engine based on Spark, and some works are related to Spark on GPU and enhancing the Spark performance and functionalities.
 
-### 方向与兴趣
-* 分布式系统
-* 并发编程模型
-* 共识与一致性
-* C++，rust
+> In the past 2 years, I had been working on [Ray](https://github.com/ray-project/ray), which is a distributed computing system for AI.
+
+> My e-mail address is kingchin1218ATgmail.com, feel free to write to me if you have any issue.
+
+### My interests
+* Big data
+* Distributed system
+* Parallel computing/processing
+* ML + sys
