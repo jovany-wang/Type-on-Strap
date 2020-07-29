@@ -8,9 +8,9 @@ tags: [About, Archive]
 
 
 ### About Jovany Wang
-> I‘m now working on a Distributed SQL Engine based on Spark, and some works are related to Spark on GPU and enhancing the Spark performance and functionalities.
+> I'm now working on a distributed computing engine in Baidu Inc, and some works are related to enhancing the performance and functionalities of distributed streaming data processing.
 
-> In the past 2 years, I had been working on [Ray](https://github.com/ray-project/ray), which is a distributed computing system for AI.
+> In the past 2 years, I had been working on [Ray](https://github.com/ray-project/ray) in Ant Financial, which is a distributed computing system for big data and AI.
 
 > My e-mail address is kingchin1218ATgmail.com, feel free to write to me if you have any issue.
 
