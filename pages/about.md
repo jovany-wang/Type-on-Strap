@@ -8,7 +8,7 @@ tags: [About, Archive]
 
 
 ### About Jovany Wang
-> I'm now working on a distributed computing engine in Baidu Inc, and some works are related to enhancing the performance and functionalities of distributed streaming data processing.
+> I'm currently working on a distributed streaming computing engine, and some works are related to enhancing the performance and functionalities of distributed streaming data processing.
 
 > In the past 2 years, I had been working on [Ray](https://github.com/ray-project/ray) in Ant Financial, which is a distributed computing system for big data and AI.
 
