@@ -265,9 +265,9 @@ bool split() {
 }
 ```
 
-需要了解enum class的可以参考（其实enum class目前而言对解决我们遇到的问题帮助不大）：
-https://hownot2code.com/2016/06/14/start-using-enum-class-in-your-code-if-possible/
-https://en.cppreference.com/w/cpp/language/enum
+需要了解enum class的可以参考（其实enum class目前而言对解决我们遇到的问题帮助不大）：  
+https://hownot2code.com/2016/06/14/start-using-enum-class-in-your-code-if-possible/  
+https://en.cppreference.com/w/cpp/language/enum  
 
 
 此外还有一点需要注意的是，我们不可能对任何一个方法都定义一个错误码，这是不应该的，也是不可能的，因此我们也需要掌握模块间的错误码定义，当你认为这是一个非常inner的方法时，至少你不应当扩大其错误码的scope(原则3)。其次，你还需要利用原则1.5和原则2去通过不断迭代，来提升你模块间的错误码的质量，以避免使用更大scope的错误码行为。
