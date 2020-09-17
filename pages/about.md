@@ -12,7 +12,7 @@ tags: [About, Archive]
 
 > In the past 2 years, I had been working on [Ray](https://github.com/ray-project/ray) in Ant Financial, which is a distributed computing system for big data and AI.
 
-> I'm a user of modern C++. My e-mail address is kingchin1218ATgmail.com, feel free to write to me if you have any issue.
+> I'm a follower of modern C++. My e-mail address is kingchin1218ATgmail.com, feel free to write to me if you have any issue.
 
 ### My interests
 * Big data
